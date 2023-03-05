@@ -15,9 +15,7 @@ namespace MouseMaze.Controllers
         [SerializeField]
         private int mazeHeight = 5;
         [SerializeField]
-        private int mazeWidth = 5;
-        [SerializeField]
-        private int pathWidth = 1;
+        private int mazeWidth = 5;        
 
         private MazeCell[,] maze;
         private Stack<Vector2> stack;
